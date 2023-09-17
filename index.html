@@ -199,8 +199,7 @@
         // ]]>
         </script>
         <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/anime/ani-10/ani979.ani), url(https://cur.cursors-4u.net/anime/ani-10/ani979.png), 
-          auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2009/11/11/cute-hello-kitty-kaoani.html" target="_blank" 
-          title="Cute Hello Kitty Kaoani">
+          auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2009/11/11/cute-hello-kitty-kaoani.html" target="_blank" title="Cute Hello Kitty Kaoani">
           <img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Cute Hello Kitty Kaoani" style="position:absolute; top: 0px; right: 0px;" /></a>
         
         <style>
@@ -211,7 +210,7 @@
                      ul {display: table; margin-left: auto;margin-right: auto;}
                      hr{ height: 1px; background-color: rgb(165, 165, 165);}
                      span {color: rgb(43, 43, 255); font-size:20px;}
-                     script{ text-align:auto;}
+                     script{text-align:center;}
       </style>
 
 </head>
@@ -219,72 +218,8 @@
     <h1><a href="index.html">WEBPro과제</a></h1>
     <hr>
    
-    <script >B=document.all;
-      C=document.layers;
-      T1=new Array("http://www.tagkorea.pe.kr/js/s3.gif",16,17,"http://www.tagkorea.pe.kr/js/s4.gif",16,17,"http://www.tagkorea.pe.kr/js/s3.gif",16,17,"http://www.tagkorea.pe.kr/js/s4.gif",16,17,"http://www.tagkorea.pe.kr/js/s3.gif",16,17,"http://www.tagkorea.pe.kr/js/s4.gif",16,17,"http://www.tagkorea.pe.kr/js/s3.gif",16,17,"http://www.tagkorea.pe.kr/js/s4.gif",16,17,"http://www.tagkorea.pe.kr/js/s3.gif",16,17)
-      //
-      nos=parseInt(T1.length/3) 
-      rate=5
-      ie5fix1=15;
-      ie5fix2=15;
-      
-      ver = parseInt(navigator.appVersion);
-      if (ver >= 4) {
-       loadcursor();
-      }
-      
-      function loadcursor() {
-      for (i=0;i<nos;i++){
-      createContainer("CUR"+i,i*10,i*10,i*3+1,i*3+2,"","<img src='"+T1[i*3]+"' width="+T1[(i*3+1)]+" height="+T1[(i*3+2)]+" border=0>")}
-      
-      if(document.layers)
-       document.captureEvents(Event.MOUSEMOVE)
-      document.onmousemove=newPos;
-      setInterval("cycle()",rate);
-      }
-      
-      function createContainer(N,Xp,Yp,W,H,At,HT,Op,St){
-      with (document){
-      write((!B) ? "<layer id='"+N+"' left="+Xp+" top="+Yp+" width="+W+" height="+H : "<div id='"+N+"'"+" style='position:absolute;left:"+Xp+"; top:"+Yp+"; width:"+W+"; height:"+H+"; ");
-      if(St){
-      if (C)
-      write(" style='");
-      write(St+";' ")
-      }
-      else write((B)?"'":"");
-      write((At)? At+">" : ">");
-      write((HT) ? HT : "");
-      if (!Op)
-      closeContainer(N)
-      }
-      }
-      function closeContainer(){
-      document.write((B)?"</div>":"</layer>")
-      }
-      function getXpos(N){
-      return (B) ? parseInt(B[N].style.left) : C[N].left
-      }
-      function getYpos(N){
-      return (B) ? parseInt(B[N].style.top) : C[N].top
-      }
-      
-      function moveContainer(N,DX,DY){
-      c=(B) ? B[N].style :C[N];c.left=DX;c.top=DY
-      }
-      function cycle(){
-      //if (IE5) 
-      if (document.all&&window.print){
-      ie5fix1=document.body.scrollLeft;
-      ie5fix2=document.body.scrollTop;
-      }
-      for (i=0;i<(nos-1);i++){
-      moveContainer("CUR"+i,getXpos("CUR"+(i+1)),getYpos("CUR"+(i+1)))
-      }
-      }
-      function newPos(e){
-      moveContainer("CUR"+(nos-1),(B)?event.clientX+ie5fix1+10:e.pageX+2,(B)?event.clientY+ie5fix2:e.pageY+2
-      )
-      }</script>
+    <script src="http://www.tagkorea.pe.kr/js/star2m.js"></script><script src="http://www.tagkorea.pe.kr/js/star2m.js"></script></script><script src="http://www.tagkorea.pe.kr/js/star2m.js"></script>
+  
     <ul>
                   
         <li> <a href="1주차과제/index.html"><span><b>1주차 과제</b></span></a></li>
@@ -295,7 +230,7 @@
   
     <ul>
             
-        <li> <a href="2주차과제/index.html"> <span><b>2주차 과제</b></span></a></li>
+        <li> <a href="2주차과제/index.html"><span><b>2주차 과제</b></span></a></li>
       
     </ul>
     <p> 2021563065 정소희</p>
