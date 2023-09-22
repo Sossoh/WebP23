@@ -8,6 +8,6 @@
 	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" />
 </div>
 
-<h8> <b>명품 웹 프로그래밍 (개정판)-황기태/생능출판<b> 참조, 문제들 많음. <h8>
+<h20> <b>명품 웹 프로그래밍 (개정판)-황기태/생능출판<b> 참조, 문제들 많음. <h20>
 
 #ver1commit
