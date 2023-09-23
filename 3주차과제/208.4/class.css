@@ -1,0 +1,18 @@
+body.main{
+    background-color: aqua;
+}
+.headline{
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+}
+div.help{
+    color: blue;
+}
+p.help{
+    color: red;
+    font-size: 25px;
+}
+#hot{
+    background: orange;
+}

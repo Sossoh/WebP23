@@ -1,0 +1,8 @@
+body.main{background-color: aqua;}
+h3{color: green; font-size: 25px;}
+#center{ text-align: center;}
+#center>strong{background-color: yellow; color: blue; }
+.indent{ text-indent: 30px; text-align: center; } /*들여쓰기*/
+div>p{color: black; font-size: 15px;}
+div>em{color:green;}
+div>p>strong{color: red;}
