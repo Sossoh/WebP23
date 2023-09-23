@@ -1,0 +1,27 @@
+
+
+    body{color: aliceblue;}
+    hr{height: 1px;}
+    h1{ color:brown; text-align: center;}
+    h3{ color: rgb(0, 0, 0); font-size: 15px; font-family:monospace;}
+    h2{ color: blue; }
+    span{color: blue; font-size: 10px;} 
+    h4{color: rgb(119, 119, 119); font-size: 13px; }
+    h5{color: rgb(119, 119, 119); font-size: 3px;}
+    h6{margin-left: auto;margin-right: auto; color: rgb(0, 0, 0); font-size: 8px;}
+    a{text-decoration-line:none;}
+    input[type="checkbox"] {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        border: 1px solid #999;
+        appearance: none;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+    
+      p{background: pink; border: 20px solid pink;}
+      div>h3{color: blue; font-size: 25px;}
+      div>h3>label{color: rgb(0, 0, 0);font-size: 15px;}
+      div{border: 1px solid pink; background-color: pink;}
+ 

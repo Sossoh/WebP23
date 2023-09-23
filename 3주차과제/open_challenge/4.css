@@ -1,0 +1,12 @@
+
+        body{color: aliceblue;}
+        hr{height: 1px;}
+        h1{ color:brown;}
+        h3{ color: rgb(0, 0, 0); font-size: 15px; font-family:'Times New Roman', Times, serif;}
+        h2{ color: blue; text-shadow: 3px 3px 5px skyblue; font-size: 18px;}
+        span{color: blue; font-size: 10px;} 
+        h4{color: rgb(119, 119, 119); font-size: 13px; }
+        h5{color: rgb(119, 119, 119); font-size: 3px;}
+        h6{margin-left: auto;margin-right: auto; color: rgb(0, 0, 0); font-size: 8px;}
+        a{text-decoration-line:none;}
+        footer{background-color: orange; border-radius: 50px;}
