@@ -1,4 +1,7 @@
 
+#https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/index.html 
+<br>##여기서 보면 보기좋게 볼 수 있어요.
+
 <h1>1. open_challenge4</h1> 
 <h5><img width="59" alt="블러처리" src="https://github.com/Sossoh/WebP23/assets/128332587/4e10a4ab-4048-4f47-950c-8988c371d624">
 <br>text-shadow: 3px 3px 5px skyblue 사용하여 텍스트 블러처리
