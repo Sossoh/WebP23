@@ -1,4 +1,17 @@
-<h1>1. openchallenge34<h1>
+<style>
+    h1{
+
+    }
+    </style>
+
+
+    <li> <a href="#his">역사</a> </li>
+    <li> <a href="#an">안드로이드</a> </li>
+    <li> <a href="#kid">아이폰</a> </li>
+    <li> <a href="#sam">샘플</a> </li>
+
+
+<h1 class="">1. openchallenge34<h1>
 <img width="59" alt="블러처리" src="https://github.com/Sossoh/WebP23/assets/128332587/4e10a4ab-4048-4f47-950c-8988c371d624">
 <br>text-shadow: 3px 3px 5px skyblue 사용하여 텍스트 블러처리
 <img width="1263" alt="동글 설문조사" src="https://github.com/Sossoh/WebP23/assets/128332587/1e91aa16-eb52-4e62-948e-ce179347c6fa">
