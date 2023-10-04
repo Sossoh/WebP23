@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>continue 문</title>
+</head>
+<body>
+    <h3>3을 나눈 나머지가 1인 수만 더하기</h3>
+    <hr>
+    <script>
+        var sum=0;
+        var i =1;
+        while(i<=10){
+            i++;
+            while(i%3 !=1)
+                continue;
+                document.write(i+" ");
+                sum+=i;
+        }
+        document.write("합은" + sum);
+    </script>
+    
+</body>
+</html>

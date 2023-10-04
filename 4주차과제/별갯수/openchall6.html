@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>별개수마만큼</title>
+    <link href = "OC.css" type = "text/css" rel = "stylesheet">
+    <script>
+        function printStar(num){
+            star= parseInt(num);
+            if(isNaN(star)){
+                    document.write("입력 오류 입니다.");
+            }
+           for(i=0; i<star; i++){
+             for(let j=0; j<=i; j++){
+                document.write("*");
+           }
+           document.write("<br>")
+     }
+    }        
+    </script>
+</head>
+<body>
+<h1>별 문자 출력하기</h1>
+    <hr>
+    <script>
+        var num= prompt("정수를 입력하세요.","1");
+        printStar(num);
+    </script>
+    
+    
+</body>
+</html>
