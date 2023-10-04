@@ -1,6 +1,6 @@
 <h1>openchallenge6 (303p)</h1>
 입력 페이지
-<img width="356" alt="별1" src="https://github.com/Sossoh/WebP23/assets/128332587/02e84765-60b6-4337-a250-26512e2cc5df">
+<img width="356" alt="별1" src="https://github.com/Sossoh/WebP23/assets/128332587/02e84765-60b6-4337-a250-26512e2cc5df"><br>
 ---
 출력결과₍ᐢ⸝⸝› ‹⸝⸝ᐢ₎
 <img width="282" alt="별2" src="https://github.com/Sossoh/WebP23/assets/128332587/7eca468a-9e66-4b57-bd05-d779d7df26bd">
