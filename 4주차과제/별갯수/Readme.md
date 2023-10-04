@@ -1,8 +1,9 @@
-<h1>~입력~</h1>
+<h1>openchallenge6 (303p)</h1>
+입력 페이지
 <img width="356" alt="별1" src="https://github.com/Sossoh/WebP23/assets/128332587/02e84765-60b6-4337-a250-26512e2cc5df">
 ---
-<h1>출력결과₍ᐢ⸝⸝› ‹⸝⸝ᐢ₎</h1>
+출력결과₍ᐢ⸝⸝› ‹⸝⸝ᐢ₎
 <img width="282" alt="별2" src="https://github.com/Sossoh/WebP23/assets/128332587/7eca468a-9e66-4b57-bd05-d779d7df26bd">
 ---
-<h1>정수 이외의 것을 입력했을 시 ! </h1>
+정수 이외의 것을 입력했을 시 !
 <img width="257" alt="별3" src="https://github.com/Sossoh/WebP23/assets/128332587/f22f0349-e3e5-477a-a5f8-8053257ef871">
