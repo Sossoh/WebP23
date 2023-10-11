@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>eval로 계산
+    </title>
+</head>
+<body>
+    <h1>eval()로 수식 계산</h1>
+    <hr>
+
+    <script>
+         const n = prompt('수식 입력');
+    if (n === null) {
+    alert('입력하거라.');
+        }
+         else {
+            try {
+        const result = eval(n);
+
+        if (!isNaN(result)) {
+            document.write(`${n} = ${result}`);
+        } 
+        else {
+            document.write('${n} 은(는) 올바르지 않은 수식입니다.');
+        }
+    } 
+    catch (error) {
+        document.write(' ${n}: ' + error.message);
+    }
+}
+    </script>
+    
+</body>
+</html>
