@@ -47,7 +47,4 @@ prompt() 함수 사용!  switch로 했다 =.=
 <img width="206" alt="통ㅎ과" src="https://github.com/Sossoh/WebP23/assets/128332587/60a707e7-9a59-40ad-981f-32d9f99c262e">
 
 
-<br>
-명품html6장실습
-
 
