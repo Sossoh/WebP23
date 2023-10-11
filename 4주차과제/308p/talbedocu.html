@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document.write()</title>
+    <style>
+       
+        table {
+            border: 1px solid black;
+        }
+        th, td{
+            border: 1px solid black;
+        }
+      
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>n</th>
+            <script>
+                for (var n = 0; n <= 9; n++) {
+                    document.write("<td>" + n + "</td>");
+                }
+            </script>
+        </tr>
+        <tr>
+            <th>n<sup>2</sup></th>
+            <script>
+                for (var n = 0; n <= 9; n++) {
+                    document.write("<td>" + n * n + "</td>");
+                }
+            </script>
+        </tr>
+    </table>
+</body>
+</html>
