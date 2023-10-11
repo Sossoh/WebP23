@@ -9,6 +9,6 @@
 	<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white" />
 </div>
 
-<h20> <b>명품 웹 프로그래밍 (개정판)-황기태/생능출판<b> 참조. 책 문제들 많음. <h20>
+<h20> <b>명품 웹 프로그래밍 (개정판)-황기태/생능출판<b> 참조 <h20>
 
 #ver1commit
