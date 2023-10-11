@@ -18,12 +18,15 @@
 prompt() 함수 사용!  그냥 switch로 했다 =.=
 <br>
 첫 창
+<br>
 <img width="380" alt="df" src="https://github.com/Sossoh/WebP23/assets/128332587/61320221-68a9-4e75-a87f-cb16b844314c">
 <br>
 제시된 요일이 아닌 다른 문자를 넣었을 때 
+<br>
 <img width="386" alt="pp" src="https://github.com/Sossoh/WebP23/assets/128332587/99f75bc3-49ef-470e-af00-174677d091d5">
 <br>
 월~목은 출근 금~일은 휴일 이다 !!
+<br>
 <img width="296" alt="월" src="https://github.com/Sossoh/WebP23/assets/128332587/62e2dbfa-414f-4923-a881-c593d18f2b17">
 <br>
 <br>
@@ -32,12 +35,15 @@ prompt() 함수 사용!  그냥 switch로 했다 =.=
 prompt() 함수 사용!  switch로 했다 =.=
 <br>
 첫 창
+<br>
 <img width="367" alt="s" src="https://github.com/Sossoh/WebP23/assets/128332587/8b10288a-ed43-417f-9004-374e871b05ac">
 <br>
 암호 틀렸을 때 ㅋㅋ
+<br>
 <img width="376" alt="ㅌㄹ" src="https://github.com/Sossoh/WebP23/assets/128332587/4d1dd40e-2d24-475d-aa86-8fd6601237aa">
 <br>
 맞췄을 때 !
+<br>
 <img width="206" alt="통ㅎ과" src="https://github.com/Sossoh/WebP23/assets/128332587/60a707e7-9a59-40ad-981f-32d9f99c262e">
 
 
