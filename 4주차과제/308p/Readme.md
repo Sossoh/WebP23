@@ -4,7 +4,6 @@
 <br>
 <img width="421" alt="별1" src="https://github.com/Sossoh/WebP23/assets/128332587/087c13ef-5a98-4c40-aa2f-b7da5f4b0e6c">
 <br>
----
 <br>
 <h1>tabledocu</h1>
 <br>
@@ -12,7 +11,7 @@
 <br>
 <img width="239" alt="테이블" src="https://github.com/Sossoh/WebP23/assets/128332587/cc2859eb-7af3-4611-8539-454d0a53cc1b">
 <br>
----
+
 <br>
 <h1>알주일</h1>
 <br>
@@ -27,8 +26,6 @@ prompt() 함수 사용!  그냥 switch로 했다 =.=
 월~목은 출근 금~일은 휴일 이다 !!
 <img width="296" alt="월" src="https://github.com/Sossoh/WebP23/assets/128332587/62e2dbfa-414f-4923-a881-c593d18f2b17">
 <br>
-
----
 <br>
 <h1>암호</h1>
 <br>
