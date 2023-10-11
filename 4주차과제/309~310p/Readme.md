@@ -18,11 +18,11 @@
 <br>
 <img width="344" alt="스크린샷 2023-10-12 020447" src="https://github.com/Sossoh/WebP23/assets/128332587/8f911802-602f-4275-81de-aca236f0ea99">
 <br>
-같은예
+같은 예
 <br>
 <img width="420" alt="스크린샷 2023-10-12 020542" src="https://github.com/Sossoh/WebP23/assets/128332587/59a81c78-4f00-4227-8cb9-000a13e89a74">
 <br>
-다른예
+다른 예
 <br>
 <img width="430" alt="스크린샷 2023-10-12 020610" src="https://github.com/Sossoh/WebP23/assets/128332587/3500fced-c333-46bf-aca2-f068f2ff1eb3">
 <br>
@@ -33,7 +33,7 @@
 <br>
 <img width="347" alt="수식" src="https://github.com/Sossoh/WebP23/assets/128332587/2b2946a0-a970-474f-bd1d-1fde8ecd0ce7">
 <br>
-수식입력예
+수식입력 예
 <br>
 <img width="246" alt="수식계산" src="https://github.com/Sossoh/WebP23/assets/128332587/0ec52f34-386d-4fab-8cc2-471d07ca568e">
 <br>
