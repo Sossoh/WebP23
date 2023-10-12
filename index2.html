@@ -2,99 +2,292 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>첫화면</title>
-    <style>
-        html, body {
-  height: 100%;
-}
+    <title>웹 프로그래밍</title>
+    <script type="text/javascript">
+      
+      var colour="random"; 
+      var sparkles=50;
+      
+      /****************************
+      *  Tinkerbell Magic Sparkle *
+      *(c)2005-13 mf2fm web-design*
+      *  http://www.mf2fm.com/rv  *
+      * DON'T EDIT BELOW THIS BOX *
+      ****************************/
+      var x=ox=400;
+      var y=oy=300;
+      var swide=800;
+      var shigh=600;
+      var sleft=sdown=0;
+      var tiny=new Array();
+      var star=new Array();
+      var starv=new Array();
+      var starx=new Array();
+      var stary=new Array();
+      var tinyx=new Array();
+      var tinyy=new Array();
+      var tinyv=new Array();
+      
+      window.onload=function() { if (document.getElementById) {
+        var i, rats, rlef, rdow;
+        for (var i=0; i<sparkles; i++) {
+          var rats=createDiv(3, 3);
+          rats.style.visibility="hidden";
+          rats.style.zIndex="999";
+          document.body.appendChild(tiny[i]=rats);
+          starv[i]=0;
+          tinyv[i]=0;
+          var rats=createDiv(5, 5);
+          rats.style.backgroundColor="transparent";
+          rats.style.visibility="hidden";
+          rats.style.zIndex="999";
+          var rlef=createDiv(1, 5);
+          var rdow=createDiv(5, 1);
+          rats.appendChild(rlef);
+          rats.appendChild(rdow);
+          rlef.style.top="2px";
+          rlef.style.left="0px";
+          rdow.style.top="0px";
+          rdow.style.left="2px";
+          document.body.appendChild(star[i]=rats);
+        }
+        set_width();
+        sparkle();
+      }}
+      
+      function sparkle() {
+        var c;
+        if (Math.abs(x-ox)>1 || Math.abs(y-oy)>1) {
+          ox=x;
+          oy=y;
+          for (c=0; c<sparkles; c++) if (!starv[c]) {
+            star[c].style.left=(starx[c]=x)+"px";
+            star[c].style.top=(stary[c]=y+1)+"px";
+            star[c].style.clip="rect(0px, 5px, 5px, 0px)";
+            star[c].childNodes[0].style.backgroundColor=star[c].childNodes[1].style.backgroundColor=(colour=="random")?newColour():colour;
+            star[c].style.visibility="visible";
+            starv[c]=50;
+            break;
+          }
+        }
+        for (c=0; c<sparkles; c++) {
+          if (starv[c]) update_star(c);
+          if (tinyv[c]) update_tiny(c);
+        }
+        setTimeout("sparkle()", 40);
+      }
+      
+      function update_star(i) {
+        if (--starv[i]==25) star[i].style.clip="rect(1px, 4px, 4px, 1px)";
+        if (starv[i]) {
+          stary[i]+=1+Math.random()*3;
+          starx[i]+=(i%5-2)/5;
+          if (stary[i]<shigh+sdown) {
+            star[i].style.top=stary[i]+"px";
+            star[i].style.left=starx[i]+"px";
+          }
+          else {
+            star[i].style.visibility="hidden";
+            starv[i]=0;
+            return;
+          }
+        }
+        else {
+          tinyv[i]=50;
+          tiny[i].style.top=(tinyy[i]=stary[i])+"px";
+          tiny[i].style.left=(tinyx[i]=starx[i])+"px";
+          tiny[i].style.width="2px";
+          tiny[i].style.height="2px";
+          tiny[i].style.backgroundColor=star[i].childNodes[0].style.backgroundColor;
+          star[i].style.visibility="hidden";
+          tiny[i].style.visibility="visible"
+        }
+      }
+      
+      function update_tiny(i) {
+        if (--tinyv[i]==25) {
+          tiny[i].style.width="1px";
+          tiny[i].style.height="1px";
+        }
+        if (tinyv[i]) {
+          tinyy[i]+=1+Math.random()*3;
+          tinyx[i]+=(i%5-2)/5;
+          if (tinyy[i]<shigh+sdown) {
+            tiny[i].style.top=tinyy[i]+"px";
+            tiny[i].style.left=tinyx[i]+"px";
+          }
+          else {
+            tiny[i].style.visibility="hidden";
+            tinyv[i]=0;
+            return;
+          }
+        }
+        else tiny[i].style.visibility="hidden";
+      }
+      
+      document.onmousemove=mouse;
+      function mouse(e) {
+        if (e) {
+          y=e.pageY;
+          x=e.pageX;
+        }
+        else {
+          set_scroll();
+          y=event.y+sdown;
+          x=event.x+sleft;
+        }
+      }
+      
+      window.onscroll=set_scroll;
+      function set_scroll() {
+        if (typeof(self.pageYOffset)=='number') {
+          sdown=self.pageYOffset;
+          sleft=self.pageXOffset;
+        }
+        else if (document.body && (document.body.scrollTop || document.body.scrollLeft)) {
+          sdown=document.body.scrollTop;
+          sleft=document.body.scrollLeft;
+        }
+        else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
+          sleft=document.documentElement.scrollLeft;
+          sdown=document.documentElement.scrollTop;
+        }
+        else {
+          sdown=0;
+          sleft=0;
+        }
+      }
+      
+      window.onresize=set_width;
+      function set_width() {
+        var sw_min=999999;
+        var sh_min=999999;
+        if (document.documentElement && document.documentElement.clientWidth) {
+          if (document.documentElement.clientWidth>0) sw_min=document.documentElement.clientWidth;
+          if (document.documentElement.clientHeight>0) sh_min=document.documentElement.clientHeight;
+        }
+        if (typeof(self.innerWidth)=='number' && self.innerWidth) {
+          if (self.innerWidth>0 && self.innerWidth<sw_min) sw_min=self.innerWidth;
+          if (self.innerHeight>0 && self.innerHeight<sh_min) sh_min=self.innerHeight;
+        }
+        if (document.body.clientWidth) {
+          if (document.body.clientWidth>0 && document.body.clientWidth<sw_min) sw_min=document.body.clientWidth;
+          if (document.body.clientHeight>0 && document.body.clientHeight<sh_min) sh_min=document.body.clientHeight;
+        }
+        if (sw_min==999999 || sh_min==999999) {
+          sw_min=800;
+          sh_min=600;
+        }
+        swide=sw_min;
+        shigh=sh_min;
+      }
+      
+      function createDiv(height, width) {
+        var div=document.createElement("div");
+        div.style.position="absolute";
+        div.style.height=height+"px";
+        div.style.width=width+"px";
+        div.style.overflow="hidden";
+        return (div);
+      }
+      
+      function newColour() {
+        var c=new Array();
+        c[0]=255;
+        c[1]=Math.floor(Math.random()*256);
+        c[2]=Math.floor(Math.random()*(256-c[1]/2));
+        c.sort(function(){return (0.5 - Math.random());});
+        return ("rgb("+c[0]+", "+c[1]+", "+c[2]+")");
+      }
+      
+      </script>
 
-html {
-  background: #eee;
-}
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.box {
-  width: 300px;
-  height: 300px;
-  border-radius: 5px;
-  box-shadow: 0 2px 30px rgba(black, .2);
-  background: lighten(#f0f4c3, 10%);
-  position: relative;
-  overflow: hidden;
-  transform: translate3d(0, 0, 0);
-}
 
-.wave {
-  opacity: .4;
-  position: absolute;
-  top: 3%;
-  left: 50%;
-  background: #0af;
-  width: 500px;
-  height: 500px;
-  margin-left: -250px;
-  margin-top: -250px;
-  transform-origin: 50% 48%;
-  border-radius: 43%;
-  animation: drift 3000ms infinite linear;
-}
 
-.wave.-three {
-  animation: drift 5000ms infinite linear;
-}
-
-.wave.-two {
-  animation: drift 7000ms infinite linear;
-  opacity: .1;
-  background: yellow;
-}
-
-.box:after {
-  content: '';
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom, rgba(#e8a, 1), rgba(#def, 0) 80%, rgba(white, .5));
-  z-index: 11;
-  transform: translate3d(0, 0, 0);
-}
-
-.title {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-  line-height: 300px;
-  text-align: center;
-  transform: translate3d(0, 0, 0);
-  color: white;
-  text-transform: uppercase;
-  font-family: 'Playfair Display', serif;
-  letter-spacing: .4em;
-  font-size: 24px;
-  text-shadow: 0 1px 0 rgba(black, .1);
-  text-indent: .3em;
-}
-@keyframes drift {
-  from { transform: rotate(0deg); }
-  from { transform: rotate(360deg); }
-}
-    </style>
+      <script type="text/javascript">
+        // <![CDATA[
+        var speed=100; // speed colours change, 1 second = 1000
+        var glow=3; // can be set from '0' for no glow, to 10
+        var raincol=new Array("#ff0000", "#ff5500", "#ffaa00", "#ffff00", "#aaff00", "#55ff00", "#00ff00", "#00ff55", "#00ffaa", "#00ffff", "#00aaff", "#0055ff", "#0000ff", "#5500ff", "#aa00ff", "#ff00ff", "#ff00aa", "#ff0055"); // change the colours if you want to
+        var alink="http://www.mf2fm.com/rv/"; // page to link text to (set to ="" for no link)
+        
+        /****************************
+        *    Rainbow Text Effect    *
+        *(c)2003-13 mf2fm web-design*
+        *  http://www.mf2fm.com/rv  *
+        * DON'T EDIT BELOW THIS BOX *
+        ****************************/
+        var rainbow, raintxt, raincnt=0;
+        
+        function addLoadEvent(funky) {
+          var oldonload=window.onload;
+          if (typeof(oldonload)!='function') window.onload=funky;
+          else window.onload=function() {
+            if (oldonload) oldonload();
+            funky();
+          }
+        }
+        
+        addLoadEvent(regenbogen);
+        
+        function regenbogen() { if (document.getElementById) {
+          var i, rainbeau;
+          rainbow=document.getElementById("rainbow");
+          raintxt=rainbow.firstChild.nodeValue;
+          while (rainbow.childNodes.length) rainbow.removeChild(rainbow.childNodes[0]);
+          for (i=0; i<raintxt.length; i++) {
+            rainbeau=document.createElement("span");
+            rainbeau.setAttribute("id", "rain"+i);
+            rainbeau.appendChild(document.createTextNode(raintxt.charAt(i)));
+            if (alink) {
+              rainbeau.style.cursor="pointer";
+              rainbeau.onclick=function() { top.location.href=alink; }
+            }
+            rainbow.appendChild(rainbeau);
+          }
+          rainbow=setInterval ("raining()", speed);
+        }}
+        
+        function raining() {
+          var i, c;
+          for (i=0; i<raintxt.length; i++) {
+            c=raincol[(i+raincnt)%raincol.length];
+            document.getElementById("rain"+i).style.color=c;
+          if (glow) document.getElementById("rain"+i).style.textShadow=c+" 0px 0px "+glow+"px";
+          }
+          raincnt++;
+        }
+        // ]]>
+        </script>
+      <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/anime/ani-10/ani979.ani), url(https://cur.cursors-4u.net/anime/ani-10/ani979.png), 
+        auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2009/11/11/cute-hello-kitty-kaoani.html" target="_blank" title="Cute Hello Kitty Kaoani">
+        <img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Cute Hello Kitty Kaoani" style="position:absolute; top: 0px; right: 0px;" /></a>
+      
+        <link href = "index.css" type = "text/css" rel = "stylesheet">
 </head>
 <body>
-    <div class='box'>
-        <div class='wave -one'></div>
-        <div class='wave -two'></div>
-        <div class='wave -three'></div>
-        <div class='title'>WebProgramming</div>
-      </div>
+    <h1><a href="index.html"><span id="rainbow"> WEBPro과제</span></a></h1>
+    <hr>
+   
+    <script src="http://www.tagkorea.pe.kr/js/star2m.js"></script><script src="http://www.tagkorea.pe.kr/js/star2m.js"></script></script><script src="http://www.tagkorea.pe.kr/js/star2m.js"></script>
+  
+    <ul>
+                  
+        <li> <a href="1주차과제/index.html"><span><b>1주차 과제</b></span></a></li>
+      <hr>  
+        <li> <a href="2주차과제/index.html"><span><b>2주차 과제</b></span></a></li>
+      <hr>
+        <li> <a href="3주차과제/index.html"><span><b>3주차 과제</b></span></a></li>
+      <hr>
+        <li> <a href="4주차과제/index.html"><span><b>4주차 과제</b></span></a></li>
+      
+    </ul>
+    <p> 23년 2학기 웹 프로그래밍(전공)
+      담당교수:김주현 2021563065정소희</p>
+
+
+
 </body>
 </html>
