@@ -5,4 +5,4 @@
 <p align="center"><img src="https://github.com/Sossoh/WebP23/assets/128332587/dfab8a96-ee65-4056-9a93-9fb421c9a6f1"></p>
 
 
-https://ezgif.com/video-to-gif 사이트 사용했어요 동영
+https://ezgif.com/video-to-gif 사이트 사용해서 동영상>gif
