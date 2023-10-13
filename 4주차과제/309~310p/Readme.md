@@ -27,7 +27,7 @@
 <img width="430" alt="스크린샷 2023-10-12 020610" src="https://github.com/Sossoh/WebP23/assets/128332587/3500fced-c333-46bf-aca2-f068f2ff1eb3">
 <br>
 <br>
-<h1>계</h1>
+<h1>간단계산(계산)</h1>
 <br>
 수식 입력창
 <br>
