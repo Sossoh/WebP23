@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>일주일 색 변환하기</title>
+</head>
+<body>
+    <h3>일요일은 pink, 다른 요일은 gold배경</h3>
+    <hr>
+    <script>
+        let current = new Date();
+        if(current.getDay() == 0)
+            document.body.style.backgroundColor="pink";
+        else
+            document.body.style.backgroundColor="gold";
+
+    var days=["일","월","화","수","목","금","토"];
+    document.write("오늘 : ");
+    document.write(current.getDate()+("일, "));
+    document.write(days[current.getDay()]+("요일"));
+    </script>
+</body>
+</html>
