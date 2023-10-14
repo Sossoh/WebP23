@@ -11,16 +11,18 @@
 <br>
 오후는 오렌지 오전은 라이트스카이블루 
 <br>
-<img width="323" alt="오후" src="https://github.com/Sossoh/WebP23/assets/128332587/d591b8ce-88e7-![Uploading 스크린샷 2023-10-15 012617.png…]()
-47ad-aaa1-1fd19aaddca2">
+<img width="323" alt="오후" src="https://github.com/Sossoh/WebP23/assets/128332587/5a44367c-8ea7-4bec-b137-186d2a4838af">
 <br>
 오전 라이트스카이블루
 <br>
-
+<img width="300" alt="스크린샷 2023-10-15 012617" src="https://github.com/Sossoh/WebP23/assets/128332587/2daac696-83eb-4279-be9e-1ddf0cb98596">
 <br>
 <h1>요일별 색상 변환</h1>
 <br>
-일요일은 pink 다른 요일은 gold다 //일요일 나중에 업뎃
+다른 요일은 gold
 <br>
 <img width="254" alt="요일" src="https://github.com/Sossoh/WebP23/assets/128332587/2e3aff14-35cd-49df-8c1b-379e8b512522">
 <br>
+일요일 pink
+<br>
+<img width="291" alt="스크린샷 2023-10-15 012605" src="https://github.com/Sossoh/WebP23/assets/128332587/405ad9e7-99cb-4446-8cf9-4a5399b51bd2">
