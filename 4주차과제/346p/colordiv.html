@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문자열 배열 color div</title>
+    <style>
+       div{
+        display : inline-block;
+        width : 60px;
+        padding: 10px;
+       }
+    </style>
+</head>
+<body>
+    <h3>17개의 CSS2색이름과 색</h3>
+    <hr>
+    <script>
+        var colornames=["maroon","blue","yellow","skyblue","olive","orange","purple","fushia","white","navy","aqua","green","teal","black","silver","gray","lime"];
+        for(var i=0; i<colornames.length; i++){
+            var str = "<div style='background-Color :";
+            str+=colornames[i];
+            str+="'>"+colornames[i]+"</div>";
+            document.write(str);
+        }
+    </script>
+</body>
+</html>
