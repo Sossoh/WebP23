@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>onkeydown</title>
+    <script>
+        function calculate(e) {
+            if (e.key === "Enter") { // 엔터 키를 누를 때만 계산하도록 수정
+                e.preventDefault(); // 폼 전송 방지
+                var exp = document.getElementById("exp");
+                var result = document.getElementById("result");
+                result.value = eval(exp.value);
+            }
+        }
+    </script>
+</head>
+<body>
+<h3>계산기 만들기</h3>
+<hr>
+<p>
+    수식을 입력하고, &lt;enter&gt;를 입력하세요.
+</p>
+<form>
+    식 <input type="text" id="exp" value="" onkeydown="calculate(event)"><br>
+    값 <input type="text" id="result">
+</form>
+</body>
+</html>

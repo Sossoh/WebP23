@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>계산기</title>
+    <style type="text/css">
+        #butn {width: 70px; padding: 10px}
+        #txt {width: 280px; height: 20px;}
+    </style>
+    <script type="text/javascript">
+        var first = true;
+
+        function back() {
+            var txt = document.getElementById("txt");
+            txt.value = txt.value.slice(0, -1);
+        }
+
+        function del() {
+            var txt = document.getElementById("txt");
+            txt.value = "0";
+            first = true;
+        }
+
+        function enter() {
+            var txt = document.getElementById("txt");
+            try {
+                txt.value = eval(txt.value);
+            } catch (error) {
+                txt.value = "Error";
+            }
+        }
+
+        function inp(obj) {    
+            var txt = document.getElementById("txt");
+            if (first) {
+                txt.value = "";
+                first = false;
+            }
+            txt.value += obj.value;
+        }
+    </script>
+</head>
+<body>
+    <h3>계산기 만들기</h3>
+    <hr>
+    <form>
+        <input id="txt" type="text" value="0">
+    <br>
+    <table>
+        <tbody>
+        <tr>
+            <td><input id="butn" type="button" value="BACK" onclick="back()"></td>
+            <td><input id="butn" type="button" value="CE" onclick="del()"></td>
+            <td><input id="butn" type="button" value="C" onclick="del()"></td>
+            <td><input id="butn" type="button" value="=" onclick="enter()"></td>
+        </tr>
+        <tr>
+            <td><input id="butn" type="button" value="7" onclick="inp(this)"></td>
+            <td><input id="butn" type="button" value="8" onclick="inp(this)"></td>
+            <td><input id="butn" type="button" value="9" onclick="inp(this)"></td>
+            <td><input id="butn" type="button" value="/" onclick="inp(this)"></td>
+        </tr>
+        <tr>
+            <td><input id="butn" type="button" value="4" onclick="inp(this)"></td>
+            <td><input id="butn" type="button" value="5" onclick="inp(this)"></td>
+            <td><input id="butn" type="button" value="6" onclick="inp(this)"></td>
+            <td><input id="butn" type="button" value="*" onclick="inp(this)"></td>
+        </tr>
+        <tr>
+            <td><input id="butn" type="button" value="1" onclick="inp(this)"></td>
+            <td><input id="butn" type="button" value="2" onclick="inp(this)"></td>
+            <td><input id="butn" type="button" value="3" onclick="inp(this)"></td>
+            <td><input id="butn" type="button" value="-" onclick="inp(this)"></td>
+        </tr>
+        <tr>
+            <td><input id="butn" type="button" value="0" onclick="inp(this)"></td>
+            <td><input id="butn" type="button" value="+" onclick="inp(this)"></td>
+            <td><input id="butn" type="button" value="NONE"></td>
+            <td><input id="butn" type="button" value="NONE"></td>
+        </tr>
+        </tbody>
+    </table>
+    </form>
+    <h5> 챗GPT씨가 도와주심. </h5>
+</body>
+</html>
