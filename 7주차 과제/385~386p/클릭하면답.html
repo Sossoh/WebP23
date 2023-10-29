@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>예제5-7수정출력</title>
+        <style>
+        h3{
+            display: inline;
+        }
+        span{
+           
+            visibility: hidden;
+        } 
+        </style>
+        <script>
+            let state = "hidden"; 
+            function change(){
+                if(state == "hidden"){ 
+                    state = "visible";
+                }
+                else {
+                    state = "hidden";
+                }
+                let spanArray = document.querySelectorAll("span") 
+                for(let span of spanArray){
+                    span.style.visibility = state;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h3>빈곳에 숨은 단어</h3>
+        <button type="button" onclick="change();">showhide</button>
+        <hr>
+        <ul>
+            <li> 1 (<span>love</span>) you </li>
+            <li> CSS is casacading (<span>style</span>)sheet</li>
+            <li> 응답하라 (<span>1988</span>)</li>
+        </ul>
+    </body>
+</html>
