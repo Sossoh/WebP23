@@ -1,0 +1,99 @@
+<h3>동적 웹페이지와 정적 웹페이지의 차이를 설명하시오.</h3>
+
+동적 웹페이지(Dynamic Web Page)<br>
+-페이지URL이 고정된 데이터로 구성된 정적인 페이지와는 반대되는 개념으로, 사용자와 상호작용하여 그때 그때 다른 데이터를 출력하는 웹 페이지를 말합니다.<br>
+페이지명은 같지만 그 뒤에 설정되는 변수값에 따라 각각 다른 페이지가 보여집니다.(? 뒤에 변수값이 있.)<br>
+-정적(고정)으로 페이지가 끝나지 않고 주소 URL이 변수값으로 끝날 경우 동적페이지라고 합니다. <br>
+-사용자의 행동에 따라 즉시 반응하며, 데이터베이스에서 정보를 가져와 보여줄 수 있습니다.<br>
+-주로 실시간 업데이트가 필요하거나 사용자와의 상호작용이 많은 웹페이지에 사용됩니다.<br>
+
+정적 웹페이지(Static Web Page)<br>
+-URL 주소가 .html / .php / .asp / .amz 등으로 끝나는 경우 이를 정적(고정)페이지라고 합니다.<br>
+-서버에서 클라이언트(웹 브라우저)로 보내지는 데이터는 변하지 않고 항상 동일합니다.<br>
+-사용자는 요청할 때마다 항상 똑같은 정보를 받게 됩니다.<br>
+-주로 정보의 업데이트가 자주 필요하지 않은 경우에 사용됩니다.<br>
+<br><hr>
+![images_dyunge_100_post_33a388a4-d96e-499b-b6e5-370ba3e216b6_image](https://github.com/Sossoh/WebP23/assets/128332587/dcc8b3d3-dbe2-4d64-8581-a4ae88161ea3)
+<br><hr>
+정적 웹페이지는 블로그 ex)의 고정된 콘텐츠, 회사 소개 페이지<br>
+동적 웹페이지 ex)소셜 미디어 피드, 쇼핑 카트, 실시간 채팅 앱<br>
+
+reference<br>
+https://www.acecounter.com/www2/education/aceRealDetail.amz?rno=13<br>
+https://velog.io/@dyunge_100/WEB-%EC%A0%95%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%99%80-%EB%8F%99%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80
+
+<h3>PHP에 설치된 모듈(20개)은 어떤 것이 있는지 조사하시오.</h3><br>
+
+PDO (PHP Data Objects): 데이터베이스에 접속하고 작업하기 위한 일관된 방법을 제공합니다.<br>
+MySQLi: MySQL 데이터베이스와 상호 작용하기 위한 향상된 MySQL 확장 모듈입니다.<br>
+cURL: URL을 통해 데이터를 전송하거나 받기 위한 라이브러리와 상호 작용하기 위한 기능을 제공합니다.<br>
+GD (Graphics Draw): 이미지를 생성하고 편집하기 위한 그래픽 라이브러리를 지원합니다.<br>
+JSON: JSON 데이터를 다루기 위한 함수를 제공합니다.<br>
+XML: XML 데이터를 처리하기 위한 함수를 제공합니다.<br>
+SOAP: 웹 서비스를 구축하고 사용하기 위한 간단 객체 접근 프로토콜 (Simple Object Access Protocol) 기능을 제공합니다.<br>
+Intl: 국제화와 지역화를 지원하기 위한 함수를 포함한 확장 모듈입니다.<br>
+mbstring (Multibyte String): 멀티바이트 문자열을 다루기 위한 함수를 지원합니다.<br>
+Zip: ZIP 파일을 생성하거나 읽기 위한 함수를 제공합니다.<br>
+FTP: FTP 프로토콜을 사용하여 파일을 전송하기 위한 함수를 지원합니다.<br>
+SQLite: 경량의 내장형 데이터베이스로 작은 규모의 프로젝트에서 사용됩니다.<br>
+OPcache: 코드 실행 속도를 높이기 위한 opcode 캐시를 제공합니다.<br>
+Xdebug: 디버깅 및 프로파일링을 위한 기능을 제공하는 확장 모듈입니다.<br>
+Imagick: 이미지 조작을 위한 라이브러리와 상호 작용하는 PHP 클래스를 제공합니다.<br>
+APCu (Alternative PHP Cache): 데이터 캐싱을 통해 성능을 향상시키기 위한 모듈입니다.<br>
+Redis: Redis 데이터베이스와 상호 작용하기 위한 함수를 제공합니다.<br>
+MongoDB: MongoDB NoSQL 데이터베이스와 상호 작용하기 위한 확장 모듈입니다.<br>
+OAuth: OAuth 인증 프로토콜을 구현하기 위한 확장 모듈입니다.<br>
+Zend OPCache: PHP 코드를 컴파일한 결과물을 캐싱하여 성능을 향상시키는 모듈입니다<br>
+
+reference<br>
+https://server-talk.tistory.com/316#google_vignette<br>
+[[chat](https://chat.openai.com/)](https://chat.openai.com/)<br>
+https://php.365ok.co.kr/book.v8js.php<br>
+
+<h3>PHP에서 사용되는 스크립트 엔진에 대해 기술하시오.</h3><br>
+
+Zend<br>
+PHP라는 언어를 사용하지 않고 다른 언어를 사용할 수도 있습니.<br>
+오픈소스이기는 하지만 GPL 라이센스가 아니라 QPL이라는 라이센스로 PHP에서 무료로 사용할 수 있도록 제공되고 있습니다.<br>
+PHP 스크립트를 실행하기 위한 핵심 엔진으로, PHP 코드를 읽고 파싱하여 바이트코드로 변환한 뒤, 이를 실행합니다.<br>
+Opcode 캐싱 및 최적화와 같은 기능을 제공하여 PHP 스크립트의 실행 성능을 향상시킵니다.<br>
+
+reference<br>
+https://www.phpschool.com/gnuboard4/bbs/board.php?bo_table=tipntech&wr_id=2840<br>
+
+<h3>웹 브라우저에서 http://www.abc.com/abc.php 페이지를 접속했을 때, 서버는 어떠한 일을 수행하는가?</h3><br>
+
+1. DNS Resolution (DNS 해결): 브라우저는 도메인 이름인 "www.abc.com"을 해당 도메인에 대한 IP 주소로 해결하기 위해 DNS 서버에 요청을 보냅니다.<br>
+2. TCP 연결 수립: 브라우저는 얻은 IP 주소를 사용하여 웹 서버에 TCP 연결을 시도합니다. 이 단계에서는 TCP의 3-way 핸드셰이크를 통해 안정된 연결을 수립합니다.<br>
+DNS는 복잡하고 매우 빨라야 하기 때문에 DNS 데이터는 웹 브라우저 사이의 서로 다른 계층과 인터넷의 다양한 위치에 임시로 저장됩니다. <br>
+이를 캐시(Cache)라고 부르는데, 웹 브라우저는 고유한 캐시, 운영 체제 캐시, 라우터의 로컬 네트워크 캐시, 회사 네트워크 또는 인터넷 서비스 제공업체(ISP)의 DNS 서버 캐시를 확인합니다.<br>
+3. HTTP 요청 전송: 브라우저는 서버에게 HTTP 요청 메시지를 보냅니다. 이 요청 메시지는 보통 GET 또는 POST 메서드를 사용하며, 요청 헤더와 필요한 데이터가 포함됩니다.<br>
+4. 서버에서의 처리: 서버는 요청된 페이지에 대한 처리를 시작합니다. 이 단계에서는 PHP 파일인 "abc.php"가 서버에서 실행되어 동적으로 페이지를 생성할 수 있습니다. PHP는 서버 측 스크립트 언어로, <br>
+5. 데이터베이스와 상호 작용하거나 다양한 서버 측 작업을 수행할 수 있습니다.<br>
+6. HTTP 응답 전송: 서버는 처리된 결과를 담은 HTTP 응답 메시지를 생성하여 브라우저로 전송합니다. 이 응답에는 상태 코드, 헤더, 그리고 요청된 페이지의 내용이 포함됩니다.<br>
+7. TCP 연결 종료: 브라우저는 서버로부터 받은 응답을 처리한 후 TCP 연결을 종료합니다.<br>
+8. 브라우저에서의 렌더링: 브라우저는 받은 내용을 화면에 렌더링하여 사용자에게 보여줍니다.<br>
+   
+reference<br>
+https://aws.amazon.com/ko/blogs/korea/what-happens-when-you-type-a-url-into-your-browser/<br>
+
+<h3>call by value와 call by reference의 차이점에 대해 기술하시오.</h3>
+
+call by value
+-값에 의한 호출방식은 인자로 받은 값을 복사하여 처리를 한다.
+-원래 값이 수정되지 않는다.
+-변수의 복사본이 전달된다.
+-실제 인수가 다른 메모리 위치에 생성된다.
+장점 : 복사하여 처리하기 때문에 안전하다. 원래의 값이 보존이 된다. / 단점 : 복사를 하기 때문에 메모리가 사용량이 늘어난다.
+
+call by reference
+-참조에 의한 호출방식은 인자로 받은 값의 주소를 참조하여 직접 값에 영향을 준다.
+-원래의 값이 수정된다.
+-변수 자체가 전달된다.
+-실제 인수가 같은 메모리 위치에 생성된다.
+장점 : 복사하지 않고 직접 참조를 하기에 빠르다. / 단점 : 직접 참조를 하기에 원래 값이 영향을 받는다.(리스크)
+
+reference<br>
+https://loosie.tistory.com/486<br>
+https://velog.io/@kwontae1313/JS%EC%9D%98-Call-by-Value-%EC%99%80-Call-by-Reference<br>
+
