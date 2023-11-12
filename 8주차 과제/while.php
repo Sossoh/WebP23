@@ -18,4 +18,4 @@ echo "팩토리얼 결과: " . $result;
 
 ?>
 
-https://www.mycompiler.io/view/6DiFqzfUhxL
+실행결과 - https://www.mycompiler.io/view/6DiFqzfUhxL
