@@ -1,6 +1,10 @@
 <?php
 
 function calculateFactorial($n) {
+    if (!is_numeric($n) || $n < 0) {
+        throw new InvalidArgumentException("음수나 비숫자 값을 입력하지 마세요.");
+    }
+
     $result = 1;
     $i = 1;
 
@@ -12,10 +16,14 @@ function calculateFactorial($n) {
     return $result;
 }
 
-// 예제로 호출
-$result = calculateFactorial(5);
-echo "팩토리얼 결과: " . $result;
+try {
+    $result = calculateFactorial(5);
+    echo "5의 팩토리얼 결과: " . $result;
+} catch (InvalidArgumentException $e) {
+    echo "에러: " . $e->getMessage();
+}
 
 ?>
+
 
 실행결과 - https://www.mycompiler.io/view/6DiFqzfUhxL
