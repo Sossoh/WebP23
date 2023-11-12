@@ -1,0 +1,12 @@
+body{
+    font-family: 'Nanum Brush Script', cursive;
+    background-color:  rgb(27, 49, 8);
+    color: rgb(225, 219, 221);
+    text-align: center;
+    font-size: medium;
+}
+
+h3{
+    color: rgb(221, 193, 10);
+    font-size: large;
+}
