@@ -25,4 +25,4 @@ function processNumber($a) {
 ?>
 
 
-실행결과 - https://www.mycompiler.io/ko/new/php?fork=HFQLud56MIm
+실행결과 - https://www.mycompiler.io/view/LhbH4WXbrlw
