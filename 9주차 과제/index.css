@@ -3,23 +3,7 @@ body {
     text-align: center;
     font-size: medium;
     margin: 0;
-    background-color: #fff;
-}
-
-#chalkboard-container {
-    position: relative;
-}
-
-#bg-container {
-    position: relative;
-    background-color: rgb(27, 49, 8);
-    color: rgb(225, 219, 221);
-    height: 100vh; /* 뷰포트 높이 */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1; /* 칠판을 위에 배치 */
+    background-color: rgba(1, 58, 1, 0.813);
 }
 
 h3 {
@@ -29,6 +13,9 @@ h3 {
 
 a {
     color: rgb(252, 254, 255);
+    text-shadow: -1px 0px rgb(0, 0, 0), 0px 1px rgb(0, 0, 0), 1px 0px rgb(0, 0, 0), 0px -1px rgb(0, 0, 0);
     font-size: large;
     text-decoration: none;
 }
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat927.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat927.png), auto !important;} /* End https://www.cursors-4u.com */

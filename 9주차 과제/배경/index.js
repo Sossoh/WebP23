@@ -6,3 +6,4 @@ const scriptDirectory = scriptPath.substring(0, scriptPath.lastIndexOf('/') + 1)
 const randomImage = scriptDirectory + images[Math.floor(Math.random() * images.length)];
 
 document.body.style.backgroundImage = `url('${randomImage}')`;
+document.body.style.backgroundSize = 'cover'; 
