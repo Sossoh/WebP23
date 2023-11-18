@@ -1,3 +1,12 @@
+indwx.html <br>
+<img width="1079" alt="스크린샷 2023-11-18 211939" src="https://github.com/Sossoh/WebP23/assets/128332587/614f7fa1-ee3a-4574-b360-bebb860da847">
+<br>
+<img width="899" alt="스크린샷 2023-11-18 212000" src="https://github.com/Sossoh/WebP23/assets/128332587/0da00fab-b656-4477-ad5f-e7e083675684">
+<br>
+제목 누르면 코딩된 php파일 볼 수 있다 <br>
+배경 낙서와 같은 건 랜덤출력 (배경 폴더 안에 있는 이미지, 이미지는 클립스튜디오 무료 소재 사용) <br>
+돌아가기 누르면 index2.html로 돌아감<br>
+
 1. http://ssonh.dothome.co.kr/9%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C/for.php
 <br>
 \n으로 줄바꿈이 안된다.... br로 처리해야한다.
