@@ -97,3 +97,8 @@ reference<br>
 https://loosie.tistory.com/486<br>
 https://velog.io/@kwontae1313/JS%EC%9D%98-Call-by-Value-%EC%99%80-Call-by-Reference<br>
 
+
+
+1. http://ssonh.dothome.co.kr/htdocs/%EC%82%BC%ED%95%AD%EC%97%B0%EC%82%B0%EC%9E%90.php
+2. [http://ssonh.dothome.co.kr/htdocs/%EC%82%BC%ED%95%AD%EC%97%B0%EC%82%B0%EC%9E%90.php](http://ssonh.dothome.co.kr/htdocs/%EB%B3%80%EC%88%98.php)
+3.[ http://ssonh.dothome.co.kr/htdocs/%EC%82%BC%ED%95%AD%EC%97%B0%EC%82%B0%EC%9E%90.php](http://ssonh.dothome.co.kr/htdocs/while.php)http://ssonh.dothome.co.kr/htdocs/while.php
