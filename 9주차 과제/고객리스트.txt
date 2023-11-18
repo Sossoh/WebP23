@@ -1,0 +1,7 @@
+김철수    35    남성    kim@example.com
+박지영    31    여성    park@example.com
+이민호    40    남성    lee@example.com
+한지수    22    여성    han@example.com
+황영희    33    여성    hwang@example.com
+이동건    45    남성    lee@example.com
+송미란    60    여성    song@example.com
