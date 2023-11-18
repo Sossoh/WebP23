@@ -1,0 +1,34 @@
+body {
+    font-family: 'Nanum Brush Script', cursive;
+    text-align: center;
+    font-size: medium;
+    margin: 0;
+    background-color: #fff;
+}
+
+#chalkboard-container {
+    position: relative;
+}
+
+#bg-container {
+    position: relative;
+    background-color: rgb(27, 49, 8);
+    color: rgb(225, 219, 221);
+    height: 100vh; /* 뷰포트 높이 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* 칠판을 위에 배치 */
+}
+
+h3 {
+    color: rgb(221, 193, 10);
+    font-size: large;
+}
+
+a {
+    color: rgb(252, 254, 255);
+    font-size: large;
+    text-decoration: none;
+}
