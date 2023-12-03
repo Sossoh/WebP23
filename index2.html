@@ -268,15 +268,67 @@
         <link href = "index.css" type = "text/css" rel = "stylesheet">
         <link href = "star/script.js" type = "javascript" rel = "stylesheet">
         <link href = "star/style.css" type = "text/css" rel = "stylesheet">
+        <style>
+          .circle-container{
+            width: 104px;
+            height: 104px;
+            position: relative;
+            display: inline-block;
+          }
+          .circle{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+           
+          }
+          .circle img{
+            width: 100%;
+            height: auto;
+            display: block;
+            position: relative;
+            z-index: 2;
+          }
+          .blur-border {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: linear-gradient(transparent, rgb(255, 127, 127)); 
+            z-index: 0;
+            filter: blur(5px);
+            pointer-events: none;
+        }
+          a>h3 {
+          color: brown;
+        }
+        </style>
+    
 </head>
 <body>
     <h1><a href="index.html"><span id="rainbow"> WEBPro과제</span></a></h1>
     <hr>
    
     <script src="http://www.tagkorea.pe.kr/js/star2m.js"></script><script src="http://www.tagkorea.pe.kr/js/star2m.js"></script></script><script src="http://www.tagkorea.pe.kr/js/star2m.js"></script>
-  
+
     <ul>
-                  
+      <li class="circle-container">
+          <div class="circle">
+            <img src="dong.png" alt = "동그란 이밎">
+          </div>
+        </div>
+        <div class="blur-border"></div>
+    </div>
+  </li>
+          <br>
+          <a><h3> 2021563065 정소희 </h3></a>
+          <a href="mailto:dfroug@naver.com"><h3>>이메일 보내기</h3></a>
         <li> <a href="1주차과제/index.html"><span><b>1주차 과제</b></span></a></li>
       <hr>  
         <li> <a href="2주차과제/index.html"><span><b>2주차 과제</b></span></a></li>
