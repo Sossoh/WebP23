@@ -1,8 +1,8 @@
 <?php 
 session_start();
 
-// 데이터베이스에 연결
-$db = mysqli_connect('localhost', 'root', '', 'multi_login');
+// 데이터베이스에 연결하기 위해 $db를 초기화하고 사용될 변수들을 선언
+$db = mysqli_connect('localhost', 'root', '', 'multi_login'); 
 
 // 변수 선언
 $username = "";
@@ -14,7 +14,7 @@ if (isset($_POST['register_btn'])) {
         register();
 }
 
-// 사용자 등록 함수
+// 사용자 등록하는 기능, 폼 값의 유효성 검사 후 오류가 없으면 사용자 정보를 데이터베이스에 저장한다,
 function register(){
         // 전역 키워드를 사용하여 이 함수 내에서 이 변수들을 사용할 수 있도록 함
         global $db, $errors, $username, $email;
@@ -65,7 +65,8 @@ function register(){
         }
 }
 
-// ID에 해당하는 사용자 배열 반환
+// ID에 해당하는 사용자 정보 가져오기.. 
+//주어진 사용자 ID에 해당하는 사용자 정보를 데이터 베이스에서 가져오는 함수
 function getUserById($id){
         global $db;
         $query = "SELECT * FROM users WHERE id=" . $id;
@@ -75,13 +76,14 @@ function getUserById($id){
         return $user;
 }
 
-// 문자열 이스케이프
+// 문자열 이스케이프 함수 
+//SQL Injection을 방지하기 위해 문자열을 이스케이프 !
 function e($val){
         global $db;
         return mysqli_real_escape_string($db, trim($val));
 }
 
-// 오류 메시지 표시
+// 오류 메시지 표시 함수
 function display_error() {
         global $errors;
 
@@ -94,7 +96,7 @@ function display_error() {
         }
 }       
 
-// 사용자가 로그인되어 있는지 확인
+// 사용자가 로그인되어 있는지 확인 함수
 function isLoggedIn()
 {
         if (isset($_SESSION['user'])) {
@@ -117,6 +119,7 @@ if (isset($_POST['login_btn'])) {
 }
 
 // 사용자 로그인 함수
+//폼 값의 유효성 검사 후 오류가 없으면 사용자를 로그인 함 !
 function login(){
     global $db, $username, $errors;
 
@@ -168,4 +171,7 @@ function isAdmin()
                 return false;
         }
 }
+
+//전체적으로 여러 PHP파일에서 공통으로 사용되는 함수들을 한 곳에 모아둔 것을 보인다.
 ?>
+
