@@ -9,7 +9,6 @@ indwx.html <br>
 
 1. http://ssonh.dothome.co.kr/9%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C/for.php
 <br>
-\n으로 줄바꿈이 안된다.... br로 처리해야한다.
 <br>
 <img width="204" alt="스크린샷 2023-11-18 203839" src="https://github.com/Sossoh/WebP23/assets/128332587/1183ccc6-9c8a-453e-9177-fa9c02858266">
 <br>
