@@ -1,4 +1,7 @@
-옷입히기 파츠는 다 그렷당...
+<h1> 웹 프로그래밍 수업 내용을 통해 간단한 웹페이지 생성하기</h1>
+<br>
+그림은 직접 그림
+<br>
 
 <img width="1274" alt="리드미" src="https://github.com/Sossoh/WebP23/assets/128332587/c831f4b1-eb4e-4505-a862-a22907911f35">
 <br>
