@@ -13,3 +13,5 @@
 <img width="1276" alt="셔츠" src="https://github.com/Sossoh/WebP23/assets/128332587/435537c9-6e3c-45c3-9a6a-4a8aa25812a3">
 <br>
 <img width="1280" alt="치마" src="https://github.com/Sossoh/WebP23/assets/128332587/74160508-7cdd-4bad-879e-818d6cbcacf6">
+<br>
+그 버튼들을 한줄씩 정렬하고 싶은데 어떻게 하는지모르겟담....
