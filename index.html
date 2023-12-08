@@ -5,119 +5,129 @@
     <title>첫화면</title>
     <style>
         html, body {
-  height: 100%;
-}
+          height: 100%;
+          margin: 0;
+        }
 
-html {
-  background: #eee;
-}
+        html {
+          background: #eee;
+        }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
 
-.box {
-  width: 300px;
-  height: 300px;
-  border-radius: 5px;
-  box-shadow: 0 2px 30px rgba(black, .2);
-  background: lighten(#f0f4c3, 10%);
-  position: relative;
-  overflow: hidden;
-  transform: translate3d(0, 0, 0);
-}
+        .box {
+          width: 300px;
+          height: 300px;
+          border-radius: 5px;
+          box-shadow: 0 2px 30px rgba(black, .2);
+          background: lighten(#f0f4c3, 10%);
+          position: relative;
+          overflow: hidden;
+          transform: translate3d(0, 0, 0);
+          margin: 0 auto;
+        }
 
-.wave {
-  opacity: .4;
-  position: absolute;
-  top: 3%;
-  left: 50%;
-  background: #0af;
-  width: 500px;
-  height: 500px;
-  margin-left: -250px;
-  margin-top: -250px;
-  transform-origin: 50% 48%;
-  border-radius: 43%;
-  animation: drift 3000ms infinite linear;
-}
+        .wave {
+          opacity: .4;
+          position: absolute;
+          top: 3%;
+          left: 50%;
+          background: #0af;
+          width: 500px;
+          height: 500px;
+          margin-left: -250px;
+          margin-top: -250px;
+          transform-origin: 50% 48%;
+          border-radius: 43%;
+          animation: drift 3000ms infinite linear;
+        }
 
-.wave.-three {
-  animation: drift 5000ms infinite linear;
-}
+        .wave.-three {
+          animation: drift 5000ms infinite linear;
+        }
 
-.wave.-two {
-  animation: drift 7000ms infinite linear;
-  opacity: .1;
-  background: yellow;
-}
+        .wave.-two {
+          animation: drift 7000ms infinite linear;
+          opacity: .1;
+          background: yellow;
+        }
 
-.box:after {
-  content: '';
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(0deg, rgba(rgb(241, 97, 145), 1), rgba(#def, 0) 80%, rgba(white, .5));
-  z-index: 11;
-  transform: translate3d(0, 0, 0);
-}
+        .box:after {
+          content: '';
+          display: block;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(0deg, rgba(rgb(241, 97, 145), 1), rgba(#def, 0) 80%, rgba(white, .5));
+          z-index: 11;
+          transform: translate3d(0, 0, 0);
+        }
 
-.title {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-  line-height: 300px;
-  text-align: center;
-  transform: translate3d(0, 0, 0);
-  color: white;
-  text-transform: uppercase;
-  font-family: 'Playfair Display', serif;
-  letter-spacing: .4em;
-  font-size: 24px;
-  text-shadow: 0 1px 0 rgba(black, .1);
-  text-indent: .3em;
-}
-@keyframes drift {
-  from { transform: rotate(0deg); }
-  from { transform: rotate(360deg); }
-}
+        .title {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          z-index: 1;
+          line-height: 300px;
+          text-align: center;
+          color: white;
+          text-transform: uppercase;
+          font-family: 'Playfair Display', serif;
+          letter-spacing: .4em;
+          font-size: 24px;
+          text-shadow: 0 1px 0 rgba(black, .1);
+          text-indent: .3em;
+        }
 
+        @keyframes drift {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+        }
 
-a{text-decoration: none; color: rgb(255, 255, 255);}
-p>a{text-align: center; text-decoration: none; color: #e8a;}
-footer {
-  position: fixed;
-  bottom: 0; left: 0;
-  height: 100px;
-  width: 100%;
-  background-color: #ededed46;
-  text-align: center;
-}
-img{
-  display: block;
-  width: 100px;
-  height: 60px;
-}
+        a {
+          text-decoration: none;
+          color: rgb(255, 255, 255);
+        }
+
+        p > a {
+          text-align: center;
+          text-decoration: none;
+          color: #e8a;
+        }
+
+        footer {
+          position: fixed;
+          bottom: 0; left: 0;
+          height: 100px;
+          width: 100%;
+          background-color: #ededed46;
+          text-align: center;
+        }
+
+        img {
+          display: block;
+          margin: 0 auto; /* 수평 가운데 정렬 */
+          width: 100%;
+          height: 60%;
+          object-fit: cover; /* 이미지 비율 유지 및 부모 요소에 맞게 크기 조절 */
+        }
     </style>
-
 </head>
 <body>
-  <img src="인덱스사진/12023.png">
-  <br>
     <div class='box'>
+        <img src="인덱스사진/12023.png" alt="홈페이지 로고" class="logo">
         <div class='wave -one'></div>
         <div class='wave -two'></div>
         <div class='wave -three'></div>
         <div class='title'><a href="index2.html">GO</a></div>
-      </div>
-      <br>
-      <footer><p><a href="#" onclick="javascript:self.close();">창 닫기</a></p></footer>
+    </div>
+    <br>
+    <footer><p><a href="#" onclick="javascript:self.close();">창 닫기</a></p></footer>
 </body>
 </html>
