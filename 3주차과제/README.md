@@ -31,7 +31,11 @@
 
 <img width="689" alt="1" src="https://github.com/Sossoh/WebP23/assets/128332587/3b181b88-36da-479b-8a17-55952f383250">
 <br>
+하나하나 따로따로 css로 색을 지정해주면 된다... 
+<br>
 <img width="511" alt="2" src="https://github.com/Sossoh/WebP23/assets/128332587/bd871149-af45-4189-9dfb-9802b94fcaff">
+<br>
+span과 p의 크기/ 색을 따로 지정해주었다 ! 
 <br>
 <img width="524" alt="3" src="https://github.com/Sossoh/WebP23/assets/128332587/e9db3132-4cf5-42bb-8fbc-5bd3e252a5c9">
 <br>
