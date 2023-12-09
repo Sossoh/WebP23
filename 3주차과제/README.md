@@ -79,6 +79,15 @@ a:hover 을 사용 ~ hover을 사용하면 여러가지가 가능 ~!<br>
    
 <img width="1054" alt="8" src="https://github.com/Sossoh/WebP23/assets/128332587/506a7369-e7b9-4ee4-80c3-f16fd257af53">
 <br>
+확대해도, 축소해도 밑에 줄이 여전한 ... <br>
+id 셀렉터를 사용, position: fixed; 으로 ... <br>
+
+<img width="359" alt="fdfsds" src="https://github.com/Sossoh/WebP23/assets/128332587/224fb8fa-9ace-4830-b907-a88f55cc5d31">
+<br>
+어떻게 리스트안에 이미지를 넣었을까? <br>
+css로  background-image: url("download.png"); 해주면 된다 경로를 잘 적는 것을 잊지 말아 ! <br>
+
+
 
 <img width="302" alt="9" src="https://github.com/Sossoh/WebP23/assets/128332587/46a9d452-85dc-479a-a138-36e64aee6b76">
 <br>
