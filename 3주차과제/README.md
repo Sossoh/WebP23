@@ -39,9 +39,16 @@ span과 p의 크기/ 색을 따로 지정해주었다 !
 <br>
 <img width="524" alt="3" src="https://github.com/Sossoh/WebP23/assets/128332587/e9db3132-4cf5-42bb-8fbc-5bd3e252a5c9">
 <br>
-
+테이블을 만들어, 테이블 안의 bgcolor를 지정해둔 것. 테이블의 구조 이해를 잘 하였으면 쉽게 이해 가능할 것이다.
+<br>
 <img width="749" alt="4" src="https://github.com/Sossoh/WebP23/assets/128332587/8c3277ef-f1a5-4b1c-ba66-0daae3221452">
 <br>
+클래스 셀렉터 활용이다. <br>
+<div class="help">도움말</div> 이렇게 Html에 표기<br>
+div.help{
+    color: blue;
+} css 표기 <br>
+클래스 셀렉터는 점(.)으로 시작하며, 클래스 이름을 나타낸다. 이를 통해 특정 클래스를 가진 HTML 요소를 선택하여 스타일을 적용할 수 있다.
 <img width="832" alt="5" src="https://github.com/Sossoh/WebP23/assets/128332587/288f125d-7fa5-40fc-a245-5faed391ef9c">
 <br>
 <img width="724" alt="6" src="https://github.com/Sossoh/WebP23/assets/128332587/000c0e73-6611-40ea-98c9-a73bcd9c0332">
