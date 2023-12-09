@@ -87,15 +87,22 @@ id 셀렉터를 사용, position: fixed; 으로 ... <br>
 어떻게 리스트안에 이미지를 넣었을까? <br>
 css로  background-image: url("download.png"); 해주면 된다 경로를 잘 적는 것을 잊지 말아 ! <br>
 
-
-
 <img width="302" alt="9" src="https://github.com/Sossoh/WebP23/assets/128332587/46a9d452-85dc-479a-a138-36e64aee6b76">
 <br>
+처음에는 그냥 버튼만 추가했었는데.. 그러면 문제가 너무 많이 생겨서 <br>
+테이블 안에 버튼을 넣었다 !  이것도 hover 이용했으며, 버튼 위에 마우스를 올리면 텍스트가 마젠타 색으로 변한다<br>
+<img width="728" alt="스크린샷 2023-12-09 215956" src="https://github.com/Sossoh/WebP23/assets/128332587/03cb9c7b-ff72-4ab2-a4bd-ef323cddf7d0">
+<img width="377" alt="스크린샷 2023-12-09 1" src="https://github.com/Sossoh/WebP23/assets/128332587/5db12cd5-28b3-4cb5-9117-476d1367aa0a">
+<br>
+<img width="410" alt="dfs" src="https://github.com/Sossoh/WebP23/assets/128332587/db6021de-85e4-469b-b1d8-e71e94fe6620">
+<br>
+
 <img width="871" alt="10" src="https://github.com/Sossoh/WebP23/assets/128332587/630f3d83-8627-439d-818b-7d7bba6b76fd">
 <br>
+제일 별 거 없다. 리스트를 만든 다음에 적절한 태그를 넣고 꾸미면 된다. <br>
 <img width="155" alt="11" src="https://github.com/Sossoh/WebP23/assets/128332587/5b241ce1-4fbf-49d3-be73-4ea584795c15">
-
 <br>
+이거 리스트인데 점 없는 이유는  list-style: none; 요거 !! 이러면 그냥 글만 나온다 <br>
 <img width="437" alt="12" src="https://github.com/Sossoh/WebP23/assets/128332587/48471a45-b111-4deb-9622-d4e14809fec3">
 <br>
 
