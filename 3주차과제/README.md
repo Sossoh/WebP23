@@ -126,12 +126,15 @@ https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/255-256/an
 <br>
 <img width="410" alt="dfs" src="https://github.com/Sossoh/WebP23/assets/128332587/db6021de-85e4-469b-b1d8-e71e94fe6620">
 <br>
-<img width="871" alt="10" src="https://github.com/Sossoh/WebP23/assets/128332587/630f3d83-8627-439d-818b-7d7bba6b76fd">
-<br>
+
 
 https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/255-256/Cappuccino.html
 <br>
 제일 별 거 없다. 리스트를 만든 다음에 적절한 태그를 넣고 꾸미면 된다. <br>
+<img width="871" alt="10" src="https://github.com/Sossoh/WebP23/assets/128332587/630f3d83-8627-439d-818b-7d7bba6b76fd">
+<br>
+
+
 <img width="155" alt="11" src="https://github.com/Sossoh/WebP23/assets/128332587/5b241ce1-4fbf-49d3-be73-4ea584795c15">
 <br>
 
