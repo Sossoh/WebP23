@@ -55,6 +55,19 @@ div.help{
 <br>
 <img width="724" alt="6" src="https://github.com/Sossoh/WebP23/assets/128332587/000c0e73-6611-40ea-98c9-a73bcd9c0332">
 <br>
+ div{  <br>
+        height: 300px; width: 500px;  <br>
+          padding: 5px;  <br>
+          border: 15px solid rgb(255, 33, 33);  <br>
+          border-style: ridge;  <br>
+        }  <br>
+        <br>  
+        액자를 만드는 건 간단 !!  <br>
+   - 너비는 500px  <br>
+   - 높이는 300px  <br>
+   - 안쪽 여백은 5px  <br>
+   - 테두리는 15px 두께로 설정하며, 색상은 RGB(255, 33, 33) 즉, 빨간색으로 지정  <br>
+   - 테두리 스타일은 ridge로 설정  <br>
 <img width="472" alt="7" src="https://github.com/Sossoh/WebP23/assets/128332587/37617689-2662-4f9c-8685-20b72d3232f8">
 <br>
 <img width="1054" alt="8" src="https://github.com/Sossoh/WebP23/assets/128332587/506a7369-e7b9-4ee4-80c3-f16fd257af53">
@@ -64,7 +77,8 @@ div.help{
 <br>
 <img width="871" alt="10" src="https://github.com/Sossoh/WebP23/assets/128332587/630f3d83-8627-439d-818b-7d7bba6b76fd">
 <br>
-![Uploading 11.png…]()
+<img width="155" alt="11" src="https://github.com/Sossoh/WebP23/assets/128332587/5b241ce1-4fbf-49d3-be73-4ea584795c15">
+
 <br>
 <img width="437" alt="12" src="https://github.com/Sossoh/WebP23/assets/128332587/48471a45-b111-4deb-9622-d4e14809fec3">
 <br>
