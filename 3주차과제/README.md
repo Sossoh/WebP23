@@ -59,18 +59,23 @@ div.help{
 클래스 셀렉터는 점(.)으로 시작하며, 클래스 이름을 나타낸다. 이를 통해 특정 클래스를 가진 HTML 요소를 선택하여 스타일을 적용할 수 있다.
 <br>
 
-<img width="832" alt="5" src="https://github.com/Sossoh/WebP23/assets/128332587/288f125d-7fa5-40fc-a245-5faed391ef9c">
-<br>
 https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/208.5/modi.html
 <br>
-클래스 셀렉터, id활용 등등을 사용하여 페이지를 구성했다
+<img width="832" alt="5" src="https://github.com/Sossoh/WebP23/assets/128332587/288f125d-7fa5-40fc-a245-5faed391ef9c">
 <br>
 
+클래스 셀렉터, id활용 등등을 사용하여 페이지를 구성했다
+<br>
+https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/209p/ca/card.html
+<br>
 <img width="724" alt="6" src="https://github.com/Sossoh/WebP23/assets/128332587/000c0e73-6611-40ea-98c9-a73bcd9c0332">
 <br>
 클래스 셀렉터 활용 ! <br>
  display: none; 처음 한면을 이렇게 none으로 해야한다 !<br>
  같은 div 클래스를 만들고 그 안에 이미지별로 클래스를 달리 해야한다 (보이고, 안 보이고 해야하니...)<br>
+<br>
+https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/209p/Frame/PhotoFrame.html
+<br>
 <img width="472" alt="7" src="https://github.com/Sossoh/WebP23/assets/128332587/37617689-2662-4f9c-8685-20b72d3232f8">
 <br>
  div{  <br>
@@ -86,6 +91,8 @@ https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/208.5/modi
    - 안쪽 여백은 5px  <br>
    - 테두리는 15px 두께로 설정하며, 색상은 RGB(255, 33, 33) 즉, 빨간색으로 지정  <br>
    - 테두리 스타일은 ridge로 설정  <br>
+  https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/209p/m_vio.html
+<br>
 <img width="481" alt="링꾸" src="https://github.com/Sossoh/WebP23/assets/128332587/fa37ab81-ac76-4a7a-8faf-05d9e6460a5e">
 <br>
 a:hover 을 사용 ~ hover을 사용하면 여러가지가 가능 ~!<br>
