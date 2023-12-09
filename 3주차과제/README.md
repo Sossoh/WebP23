@@ -134,11 +134,9 @@ https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/255-256/Ca
 <img width="871" alt="10" src="https://github.com/Sossoh/WebP23/assets/128332587/630f3d83-8627-439d-818b-7d7bba6b76fd">
 <br>
 
-
+https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/255-256/menu.html
 <img width="155" alt="11" src="https://github.com/Sossoh/WebP23/assets/128332587/5b241ce1-4fbf-49d3-be73-4ea584795c15">
 <br>
-
-https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/255-256/menu.html
 <br>
 이거 리스트인데 점 없는 이유는  list-style: none; 요거 !! 이러면 그냥 글만 나온다 <br>
 <img width="437" alt="12" src="https://github.com/Sossoh/WebP23/assets/128332587/48471a45-b111-4deb-9622-d4e14809fec3">
