@@ -28,18 +28,26 @@
   <br>드래그 하면 텍스트 색, 배경 바뀜.
 <br> 밑에 동영상들은 페이지 확대/축소 해도 사이즈 동일</h5>
 
-
+https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/207.1/tagname.html
+<br>
 <img width="689" alt="1" src="https://github.com/Sossoh/WebP23/assets/128332587/3b181b88-36da-479b-8a17-55952f383250">
 <br>
 하나하나 따로따로 css로 색을 지정해주면 된다... 
 <br>
+
 <img width="511" alt="2" src="https://github.com/Sossoh/WebP23/assets/128332587/bd871149-af45-4189-9dfb-9802b94fcaff">
 <br>
+https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/207.2/nameselector.html
+<br>
 span과 p의 크기/ 색을 따로 지정해주었다 ! 
+<br>
+https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/207.3/table.html
 <br>
 <img width="524" alt="3" src="https://github.com/Sossoh/WebP23/assets/128332587/e9db3132-4cf5-42bb-8fbc-5bd3e252a5c9">
 <br>
 테이블을 만들어, 테이블 안의 bgcolor를 지정해둔 것. 테이블의 구조 이해를 잘 하였으면 쉽게 이해 가능할 것이다.
+<br>
+https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/208.4/classselect.html
 <br>
 <img width="749" alt="4" src="https://github.com/Sossoh/WebP23/assets/128332587/8c3277ef-f1a5-4b1c-ba66-0daae3221452">
 <br>
@@ -49,13 +57,18 @@ div.help{
     color: blue;
 } css 표기 <br>
 클래스 셀렉터는 점(.)으로 시작하며, 클래스 이름을 나타낸다. 이를 통해 특정 클래스를 가진 HTML 요소를 선택하여 스타일을 적용할 수 있다.
+<br>
+
 <img width="832" alt="5" src="https://github.com/Sossoh/WebP23/assets/128332587/288f125d-7fa5-40fc-a245-5faed391ef9c">
+<br>
+https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/208.5/modi.html
 <br>
 클래스 셀렉터, id활용 등등을 사용하여 페이지를 구성했다
 <br>
+
 <img width="724" alt="6" src="https://github.com/Sossoh/WebP23/assets/128332587/000c0e73-6611-40ea-98c9-a73bcd9c0332">
 <br>
-클래스 셀렉터 활용 !<br>
+클래스 셀렉터 활용 ! <br>
  display: none; 처음 한면을 이렇게 none으로 해야한다 !<br>
  같은 div 클래스를 만들고 그 안에 이미지별로 클래스를 달리 해야한다 (보이고, 안 보이고 해야하니...)<br>
 <img width="472" alt="7" src="https://github.com/Sossoh/WebP23/assets/128332587/37617689-2662-4f9c-8685-20b72d3232f8">
