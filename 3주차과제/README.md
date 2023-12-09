@@ -51,6 +51,8 @@ div.help{
 클래스 셀렉터는 점(.)으로 시작하며, 클래스 이름을 나타낸다. 이를 통해 특정 클래스를 가진 HTML 요소를 선택하여 스타일을 적용할 수 있다.
 <img width="832" alt="5" src="https://github.com/Sossoh/WebP23/assets/128332587/288f125d-7fa5-40fc-a245-5faed391ef9c">
 <br>
+클래스 셀렉터, id활용 등등을 사용하여 페이지를 구성했다
+<br>
 <img width="724" alt="6" src="https://github.com/Sossoh/WebP23/assets/128332587/000c0e73-6611-40ea-98c9-a73bcd9c0332">
 <br>
 <img width="472" alt="7" src="https://github.com/Sossoh/WebP23/assets/128332587/37617689-2662-4f9c-8685-20b72d3232f8">
