@@ -34,11 +34,11 @@ https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/207.1/tagn
 <br>
 하나하나 따로따로 css로 색을 지정해주면 된다... 
 <br>
-
-<img width="511" alt="2" src="https://github.com/Sossoh/WebP23/assets/128332587/bd871149-af45-4189-9dfb-9802b94fcaff">
-<br>
 https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/207.2/nameselector.html
 <br>
+<img width="511" alt="2" src="https://github.com/Sossoh/WebP23/assets/128332587/bd871149-af45-4189-9dfb-9802b94fcaff">
+<br>
+
 span과 p의 크기/ 색을 따로 지정해주었다 ! 
 <br>
 https://sossoh.github.io/WebP23/3%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C/207.3/table.html
