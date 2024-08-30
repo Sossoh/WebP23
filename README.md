@@ -13,3 +13,4 @@
 <h20> <b>명품 웹 프로그래밍 (개정판)-황기태/생능출판<b> 참조 <h20>
 
 https://github.com/guswnsj
+[GitHub 아이디](https://github.com/guswnsj)
